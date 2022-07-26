@@ -39,7 +39,6 @@ class Solution:
 
         if ary[length-1] == 9:
             num = int(str(ary[length-2]) + str(9))
-            print("HI")
             num += 1
             ary[length-2] = num // 10
             ary[length-1] = num % 10
